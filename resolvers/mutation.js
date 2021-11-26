@@ -11,7 +11,6 @@ module.exports = {
 			try {
 				return await Project.create({
 					...project,
-					technologies: [],
 				});
 			} catch (e) {
 				if (e.extensions.code === "UNAUTHENTICATED") throw e;
