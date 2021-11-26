@@ -3,7 +3,7 @@
 const { AuthenticationError } = require("apollo-server");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const { Project, Technologie } = require("../mongo/model");
+const { Project, Technologie } = require("../mongo/models");
 
 module.exports = {
 	Query: {

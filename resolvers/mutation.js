@@ -2,9 +2,8 @@
 
 const { ApolloError, AuthenticationError } = require("apollo-server");
 const bcrypt = require("bcrypt");
-const pubsub = require("./pubsub");
 
-const { Project, Technologie } = require("../mongo/model");
+const { Project, Technologie } = require("../mongo/models");
 
 module.exports = {
 	Mutation: {

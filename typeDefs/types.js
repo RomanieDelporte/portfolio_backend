@@ -9,7 +9,7 @@ module.exports = gql`
 		image: String
 		githubUrl: String
 		about: String
-		technologies: [Technologie]
+		technologies: [Technologies]
 	}
 
 	type Technologie {
